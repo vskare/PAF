@@ -1,0 +1,10 @@
+x1 = int(input("Unesite x koordinatu prve tocke: "))
+y1 = int(input("Unesite y koordinatu prve tocke: "))
+x2 = int(input("Unesite x koordinatu druge tocke: "))
+y2 = int(input("Unesite y koordinatu druge tocke: "))
+print("prva tocka: ({},{})".format(x1,y1))
+print("druga tocka: ({},{})".format(x2,y2))
+k = (y2-y1)/(x2-x1)
+l = y1 - k*x1
+print("Jednadzba pravca koji prolazi kroz ove dvije tocke:")
+print("y = {}x + {}".format(k,l))
